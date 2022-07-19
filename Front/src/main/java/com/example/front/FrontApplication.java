@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
-@RequestMapping
+@RequestMapping("/students")
 public class FrontApplication {
 
     public static void main(String[] args) {
